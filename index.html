@@ -1,0 +1,96 @@
+<body>
+  <!-- Loader -->
+  <div id="loader">
+      <div class="cube"></div>
+      <div class="progress"></div>
+  </div>
+
+  <!-- Main content -->
+  <div id="content" style="display:none;">
+  </div>
+
+  <script src="main.js"></script>
+</body>
+<link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>آشیانه طلایی – خانه</title>
+
+<style>
+    body { margin:0; font-family:Nazanin; background:#cecece; color:#111; }
+    header {
+        background:#111; color:darkgoldenrod; padding:18px;
+        display:flex; justify-content:space-between; align-items:center;
+    }
+    header a { color:darkgoldenrod; text-decoration:none; margin:0 10px; font-size:30px; }
+    header a:hover { color:white; }
+
+    .hero {
+        background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url('https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=60');
+        background-size:cover; background-position:center;
+        color:darkgoldenrod; font-size: 50px; padding:300px 20px; text-align:center;
+    }
+    .hero h1 { color:darkgoldenrod; font-size:60px; }
+
+    .services, .gallery {
+        padding:80px 20px; text-align:center; font-size: 25px;
+    }
+    .service-box {
+        background:darkgoldenrod; padding:15px; border-left:4px solid darkgoldenrod;
+        max-width:600px; margin:10px auto; border-radius:6px;
+    }
+    .gallery img {
+        width:400px; height:300px; object-fit:cover; margin:10px;
+        border-radius:10px; border:3px solid darkgoldenrod;
+    }
+    footer {
+        background:#111; color:darkgoldenrod; padding:20px; font-size: 30px; text-align:center;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <div style="font-size:30px;font-weight:bold;">آشیانه طلایی</div>
+    <nav>
+        <a href="index.html">خانه</a>
+        <a href="about.html">درباره ما</a>
+        <a href="contact.html">تماس با ما</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>خانه رویایی شما را می‌سازیم</h1>
+    <p>تجربه در خرید، فروش، بیع‌وفا، شریک‌آباد و کرایی</p>
+</section>
+
+<section class="services">
+    <h2>خدمات ما</h2>
+    <div class="service-box">خرید و فروش ملک</div>
+    <div class="service-box">بیع‌وفا با ضمانت</div>
+    <div class="service-box">خانه‌های کرایی با قیمت مناسب</div>
+    <div class="service-box">شریک‌آباد – قرارداد مطمئن</div>
+</section>
+
+<section class="gallery">
+    <img src="n.jpg">
+    <img src="m.jpg">
+    <img src="p.jpg">
+    <img src="t.png">
+    <img src="v.png">
+    <img src="c.png">
+</section>
+
+<footer>
+    تمام حقوق برای آشیانه طلایی محفوظ است.  
+</footer>
+
+</body>
+</html>
